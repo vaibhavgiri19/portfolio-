@@ -13,7 +13,6 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
 });
 
-// Resume download functionality
-document.getElementById('download-resume').addEventListener('click', function() {
-    window.open('resume.pdf', '_blank');
+document.getElementById('download-resume').addEventListener('click', () => {
+    window.open('./assets/resume.pdf', '_blank');
 });
